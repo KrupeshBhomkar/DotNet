@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JobModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="api_emp">
+      <EntityTypeMapping TypeName="JobModel.api_emp">
+        <MappingFragment StoreEntitySet="api_emp">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="department" ColumnName="department" />
+          <ScalarProperty Name="postedDate" ColumnName="postedDate" />
+          <ScalarProperty Name="closingDate" ColumnName="closingDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
