@@ -1,2 +1,2 @@
 # DotNet
-Dot Net repo for project
+Dot Net repo
